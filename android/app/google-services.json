@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "616051677602",
+    "project_id": "infohive-cc6fe",
+    "storage_bucket": "infohive-cc6fe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616051677602:android:80432ba2fed7d6c8323afb",
+        "android_client_info": {
+          "package_name": "com.infohive.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz9w6cEBIVzxSbS2A7-f0W5dL0bLhc4WY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

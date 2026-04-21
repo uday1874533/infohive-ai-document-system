@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "InfoHive",
+    "slug": "Quick-Docs",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/updatedLogo1.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/updatedLogo1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "infoPlist": {
+        "NSDocumentsFolderUsageDescription": "This app needs access to your documents folder to display PDFs.",
+        "NSMicrophoneUsageDescription": "This app needs access to your microphone to enable speech-to-text functionality for AI queries."
+      },
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "NOTIFICATIONS",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "MEDIA_CONTENT_CONTROL",
+        "INTERNET",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/updatedLogo2.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.infohive.app"
+    },
+    "plugins": [
+      "expo-media-library",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#ffffff",
+          "sound": true,
+          "mode": "system"
+        }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone."
+        }
+      ],
+      "expo-web-browser",
+      "expo-asset",
+      "expo-font"
+    ],
+    "web": {
+      "favicon": "./assets/updatedLogo1.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a99c9c75-3953-4569-8115-28e736986c9a"
+      }
+    },
+    "owner": "vks7633a"
+  }
+}
