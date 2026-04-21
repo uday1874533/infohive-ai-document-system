@@ -15,6 +15,7 @@ InfoHive is an AI-powered mobile application designed to manage, analyze, and cl
 
 * Frontend: Mobile Application
 * Backend: Cloud-based APIs
+* RAG
 * AI: NLP (Natural Language Processing)
 
 ## 📱 Demo Video
