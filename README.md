@@ -20,18 +20,9 @@ InfoHive is an AI-powered mobile application designed to manage, analyze, and cl
 
 ## 📱 Demo Video
 
-👉 (Add your YouTube / Drive link here)
-
-## 📸 Screenshots
-
-(Add screenshots here)
-
-## ⚙️ Setup Instructions
-
-1. Clone the repository
-2. Install dependencies
-3. Run the application
+👉 
+https://drive.google.com/file/d/1Udf8MYxNpO8l1y6EVD7QMiPDnRFumwlU/view?usp=drivesdk
 
 ## 👨‍💻 Author
 
-Uday Siddardha Vegulla
+VEGULLA UDAY SAI SIDDARDHA
